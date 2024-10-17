@@ -1,0 +1,144 @@
+/*.logopanel { background-color: #828282; }
+.logopanel h1 { color: #8B0000; }
+.footer div.footerleft { background-color: #8B0000; }*/
+li a.sair { cursor: pointer; }
+.widgetcontent form div{ margin-bottom: 15px; }
+table.table-form tr td { padding: 5px; }
+
+
+.nav-tabs a, tbody td, p small, p span, p label,
+a.ui-state-default, input, select, textarea {
+  color: #000 !important;
+}
+
+.breadcrumbwidget ul li{ color: #000; font-size: 9pt; }
+ul.skins { padding-right: 8px; }
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    background: #174217 none repeat scroll 0 0;
+    text-shadow: 0 1px 0 #174217;
+    color: #fff;
+}
+
+.navbar .nav li.dropdown.active.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.active.open > .dropdown-toggle {
+    background: #174217 none repeat scroll 0 0;
+    text-shadow: 0 1px 0 #174217;
+    color: #fff;
+}
+
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret {
+    border-bottom-color:#fff;
+    border-top-color:#fff;
+    color: #fff;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background: #174217 none repeat scroll 0 0;
+}
+
+td.ui-datepicker-today a.ui-state-highlight {
+  background-color: #ddd !important;
+  color: #000 !important;
+}
+
+td.ui-datepicker-current-day a.ui-state-active {
+  background-color: #174217 !important;
+  color: #ffffff !important;
+}
+
+select::-ms-expand {display: none;}
+
+.chzn-select {
+    -webkit-appearance: none !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px;
+    box-shadow: 0px;
+    border: none;
+    height: 34px !important;
+    cursor: text;
+    margin-top: 12px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-indent: 0;
+    margin-left: 30px;
+}
+
+#dyntable_filter {
+    margin-top: -10px;
+}
+
+#dyntable_previous {
+    border-left: 1px solid #B5B5B5;
+}
+
+.box {
+    width: 200px; height: 300px;
+    position: relative;
+    border: 1px solid #BBB;
+    background: #EEE;
+}
+.ribbon {
+    position: absolute;
+    left: -6px;
+    top: 45px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 100px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; left: -21px;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #79A70A;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #79A70A;
+}
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #79A70A;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #79A70A;
+}
+
+.verwizard .verticalmenu a.done { background: #f7f7f7; color: #fff; }
+
+div#lockscreen {
+    background: rgba(0,0,0,0.5);
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
